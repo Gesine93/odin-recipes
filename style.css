@@ -1,0 +1,32 @@
+body {
+    background-color: #5aab61;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+.title {
+    width: 100%;
+    color: #5aab61;
+    background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.recipe_list {
+    color: white;
+}
+
+.recipe_list a {
+    color: white;
+    text-decoration: none;
+}
+
+.recipe_list {
+    padding: 10px;
+}
+
+.recipe_list .item {
+    padding-bottom:3px;
+}
