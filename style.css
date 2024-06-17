@@ -1,13 +1,35 @@
 body {
+    overflow-x: hidden;
+}
+
+.index {
     background-color: #5aab61;
     font-family: Arial, Helvetica, sans-serif;
     margin: 0;
+    padding: 0;
+}
+
+.recipes {
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 .title {
     width: 100%;
     color: #5aab61;
     background-color: white;
+    text-align: center;
+    padding: 10px;
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.recipe_title {
+    width: 100%;
+    color: white;
+    background-color: #5aab61;
     text-align: center;
     padding: 10px;
     font-size: 32px;
@@ -25,8 +47,27 @@ body {
 
 .recipe_list {
     padding: 10px;
+    margin: 0;
 }
 
-.recipe_list .item {
-    padding-bottom:3px;
+.recipe_list > li {
+    padding-bottom:5px;
+    list-style-type: none;
+}
+
+img {
+    margin: 10px 0px; 
+    width: 100vw;
+    height: auto;
+    display: block; 
+    box-sizing: border-box;
+}
+.content {
+    padding: 5px 0 0 10px
+}
+
+h3 {
+    margin-bottom: 3px;
+    margin-top: 10px;
+    padding: 0;
 }
